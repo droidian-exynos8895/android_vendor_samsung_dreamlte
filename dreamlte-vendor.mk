@@ -140,5 +140,5 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/dreamlte/proprietary/vendor/lib64/libsnap_vndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsnap_vndk.so \
     vendor/samsung/dreamlte/proprietary/vendor/lib64/libsomp.camera.samsung.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsomp.camera.samsung.so \
     vendor/samsung/dreamlte/proprietary/vendor/lib64/libvxu.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvxu.so \
-    vendor/samsung/dreamlte/proprietary/vendor/lib64/libxcv.camera.samsung.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libxcv.camera.samsung.so
+    vendor/samsung/dreamlte/proprietary/vendor/lib64/libxcv.camera.samsung.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libxcv.camera.samsung.so \
     vendor/samsung/dreamlte/proprietary/vendor/lib64/hw/audio.primary.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.primary.default.so
