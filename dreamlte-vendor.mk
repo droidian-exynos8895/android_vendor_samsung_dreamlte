@@ -16,6 +16,10 @@
 
 PRODUCT_COPY_FILES += \
     vendor/samsung/dreamlte/proprietary/lib/hw/camera.universal8895.so:system/lib/hw/camera.universal8895.so \
+    vendor/samsung/dreamlte/proprietary/lib/hw/audio.a2dp.default.so:system/lib/hw/audio.a2dp.default.so \
+    vendor/samsung/dreamlte/proprietary/lib/hw/audio.playback_record.default.so:system/lib/hw/audio.playback_record.default.so \
+    vendor/samsung/dreamlte/proprietary/lib/hw/audio.primary.universal8895.so:system/lib/hw/audio.primary.universal8895.so \
+    vendor/samsung/dreamlte/proprietary/lib/hw/audio.tms.default.so:system/lib/hw/audio.tms.default.so \
     vendor/samsung/dreamlte/proprietary/lib/libFacePreProcessing.camera.samsung.so:system/lib/libFacePreProcessing.camera.samsung.so \
     vendor/samsung/dreamlte/proprietary/lib/libFacePreProcessing_jni.camera.samsung.so:system/lib/libFacePreProcessing_jni.camera.samsung.so \
     vendor/samsung/dreamlte/proprietary/lib/libFacialBasedSelfieCorrection.camera.samsung.so:system/lib/libFacialBasedSelfieCorrection.camera.samsung.so \
@@ -35,6 +39,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/dreamlte/proprietary/lib/libuniapi.so:system/lib/libuniapi.so \
     vendor/samsung/dreamlte/proprietary/lib/libuniplugin.so:system/lib/libuniplugin.so \
     vendor/samsung/dreamlte/proprietary/lib64/hw/camera.universal8895.so:system/lib64/hw/camera.universal8895.so \
+    vendor/samsung/dreamlte/proprietary/lib64/hw/audio.a2dp.default.so:system/lib64/hw/audio.a2dp.default.so \
     vendor/samsung/dreamlte/proprietary/lib64/libIDDQD_core.so:system/lib64/libIDDQD_core.so \
     vendor/samsung/dreamlte/proprietary/lib64/libIDDQD_interface.so:system/lib64/libIDDQD_interface.so \
     vendor/samsung/dreamlte/proprietary/lib64/libblurdetection.so:system/lib64/libblurdetection.so \
@@ -115,6 +120,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/dreamlte/proprietary/vendor/lib/libsomp.camera.samsung.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsomp.camera.samsung.so \
     vendor/samsung/dreamlte/proprietary/vendor/lib/libvxu.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvxu.so \
     vendor/samsung/dreamlte/proprietary/vendor/lib/libxcv.camera.samsung.so:$(TARGET_COPY_OUT_VENDOR)/lib/libxcv.camera.samsung.so \
+    vendor/samsung/dreamlte/proprietary/vendor/lib/hw/audio.primary.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.primary.default.so \
     vendor/samsung/dreamlte/proprietary/vendor/lib64/camera.device@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera.device@1.0-impl.so \
     vendor/samsung/dreamlte/proprietary/vendor/lib64/camera.device@3.2-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera.device@3.2-impl.so \
     vendor/samsung/dreamlte/proprietary/vendor/lib64/camera.device@3.3-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera.device@3.3-impl.so \
@@ -135,3 +141,4 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/dreamlte/proprietary/vendor/lib64/libsomp.camera.samsung.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsomp.camera.samsung.so \
     vendor/samsung/dreamlte/proprietary/vendor/lib64/libvxu.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvxu.so \
     vendor/samsung/dreamlte/proprietary/vendor/lib64/libxcv.camera.samsung.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libxcv.camera.samsung.so
+    vendor/samsung/dreamlte/proprietary/vendor/lib64/hw/audio.primary.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.primary.default.so
